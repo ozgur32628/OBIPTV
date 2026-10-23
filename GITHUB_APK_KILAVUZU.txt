@@ -1,0 +1,16 @@
+OBIPTV - GitHub ile APK oluşturma
+
+1) github.com adresinde ücretsiz hesap aç / giriş yap.
+2) Sağ üst + > New repository seç.
+3) Repository name: OBIPTV yaz. Public veya Private olabilir.
+4) Create repository seç.
+5) Bu ZIP'in içindeki OBIPTV klasörünün İÇERİĞİNİ repository'ye yükle.
+   Önemli: .github klasörünün de yüklenmesi gerekir.
+6) GitHub'da Actions sekmesine gir.
+7) "OBIPTV APK Build" iş akışını aç.
+8) Run workflow > Run workflow seç.
+9) İşlem yeşil tik olduğunda ilgili çalışmayı aç.
+10) Sayfanın altındaki Artifacts bölümünden "OBIPTV-debug-apk" dosyasını indir.
+11) İnen ZIP'i aç. İçindeki app-debug.apk kurulum dosyasıdır.
+
+Not: Bu ilk test sürümüdür ve debug APK olarak üretilir.
